@@ -12,7 +12,7 @@ path = 'dataset'
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 # 使用Haar cascades 臉部辨識方法
-detector = cv2.CascadeClassifier("Cascades/haarcascade_frontalface_default.xml");
+detector = cv2.CascadeClassifier("Cascades/haarcascade_frontalface_default.xml")
 
 # 建立照片集及標籤函數
 def getImagesAndLabels(path):
